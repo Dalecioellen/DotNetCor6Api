@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Domain", "PrimeiroDotNet6.Domain\PrimeiroDotNet6.Domain.csproj", "{6A7B6539-E03E-4F9C-8F30-2FA10960D467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroDotNet6.Domain", "PrimeiroDotNet6.Domain\PrimeiroDotNet6.Domain.csproj", "{6A7B6539-E03E-4F9C-8F30-2FA10960D467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Infra.Data", "PrimeiroDotNet6.Infra.Data\PrimeiroDotNet6.Infra.Data.csproj", "{86D43BBF-654B-4A39-B0FB-EB444DCEBF54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroDotNet6.Infra.Data", "PrimeiroDotNet6.Infra.Data\PrimeiroDotNet6.Infra.Data.csproj", "{86D43BBF-654B-4A39-B0FB-EB444DCEBF54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Application", "PrimeiroDotNet6.Application\PrimeiroDotNet6.Application.csproj", "{3D4DA19C-7926-4957-B58D-97827319BA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroDotNet6.Application", "PrimeiroDotNet6.Application\PrimeiroDotNet6.Application.csproj", "{3D4DA19C-7926-4957-B58D-97827319BA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Infra.IoC", "PrimeiroDotNet6.Infra.IoC\PrimeiroDotNet6.Infra.IoC.csproj", "{F93A0DD6-EB37-4DE2-BC97-C171C7BE8B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroDotNet6.Infra.IoC", "PrimeiroDotNet6.Infra.IoC\PrimeiroDotNet6.Infra.IoC.csproj", "{F93A0DD6-EB37-4DE2-BC97-C171C7BE8B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Api", "PrimeiroDotNet6.Api\PrimeiroDotNet6.Api.csproj", "{82983757-25A5-44CA-AFCC-7FC664C8C556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroDotNet6.Api", "PrimeiroDotNet6.Api\PrimeiroDotNet6.Api.csproj", "{82983757-25A5-44CA-AFCC-7FC664C8C556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroDotNet6.Testes", "PrimeiroDotNet6.Testes\PrimeiroDotNet6.Testes.csproj", "{4E890B0E-6973-4321-8BA2-60051C951336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{82983757-25A5-44CA-AFCC-7FC664C8C556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82983757-25A5-44CA-AFCC-7FC664C8C556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82983757-25A5-44CA-AFCC-7FC664C8C556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E890B0E-6973-4321-8BA2-60051C951336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E890B0E-6973-4321-8BA2-60051C951336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E890B0E-6973-4321-8BA2-60051C951336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E890B0E-6973-4321-8BA2-60051C951336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

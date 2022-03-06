@@ -1,5 +1,5 @@
 ﻿using PrimeiroDotNet6.Domain.Entities;
-;
+
 
 namespace PrimeiroDotNet6.Domain.InterfacesRepositories
 {

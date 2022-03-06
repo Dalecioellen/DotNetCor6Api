@@ -16,7 +16,9 @@ namespace PrimeiroDotNet6.Domain.Validation
             if (existeErro)
             {
                 throw new DomainValidationException(mensagemErro);
+             
             }
+           
         }
     }
 }

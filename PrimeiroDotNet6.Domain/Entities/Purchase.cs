@@ -31,11 +31,11 @@ namespace PrimeiroDotNet6.Domain.Entities
 
         private void validation(int productId, int personId, DateTime? date)
         {
-            DomainValidationException.TemErro(productId < 0, "O ProductId é obrigatório e não pode ser vazio");
+            DomainValidationException.TemErro(productId == 0, "O ProductId deve ser maior do que 0");
 
-            DomainValidationException.TemErro(personId < 1, "O PersonId deve ser maior do que 0");
+            DomainValidationException.TemErro(personId <= 0, "O PersonId deve ser maior do que 0");
 
-            DomainValidationException.TemErro(date.HasValue, "A data é obrigatória e deve ser informado");
+            DomainValidationException.TemErro(date == null, "A data é obrigatória e deve ser informada");
 
             ProductId = productId;
             PersonId = personId;
