@@ -24,8 +24,4 @@
     <ProjectReference Include="..\PrimeiroDotNet6.Domain\PrimeiroDotNet6.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
-
 </Project>
